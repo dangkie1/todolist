@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg,#153677,#4e085f);
+    padding : 30px;
+}
+
+.todo-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #125e91;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #ecf0f1;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#add-btn {
+    background-color: #2ecc71;
+    color: #ecf0f1;
+}
+
+button#add-btn:hover {
+    background-color: #27ae60;
+}
+
+button#finish-btn {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+}
+
+button#finish-btn:hover {
+    background-color: #c0392b;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2980b9;
+    padding: 10px;
+}
+
+/* Styling for finished tasks */
+.finished {
+    text-decoration: line-through;
+    color: #95a5a6;
+}
+
+.delete-btn, .finish-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+.finish-btn {
+    background-color: #3498db;
+    color: #ecf0f1;
+}
+
+.finish-btn:hover {
+    background-color: #2980b9;
+}
